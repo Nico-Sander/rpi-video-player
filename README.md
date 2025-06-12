@@ -11,5 +11,5 @@
 ## Documentation
 1. Flashed Raspberry Pi 1 B+ with older, `buster`-based Raspberry Pi OS (https://downloads.raspberrypi.org/raspbian/images/raspbian-2020-02-14/) because new ones don't support the lightweight terminal videoplayer `omxplayer` anymore.
 2. Made sure some basic dependencies like python3 and git were installed.
-3. Downloaded a [test video](testvideo.mp4) from a stock site and converted it to H264 MPEG4 because `omxplayer` is optimized for it.
+3. Downloaded a [test video](test_video_converted.mp4) from a stock site and converted it to H264 MPEG4 because `omxplayer` is optimized for it.
 4. Synced the test video to the Pi using git.
