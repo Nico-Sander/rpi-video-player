@@ -1,4 +1,4 @@
-# rpi-video-player
+# Raspberry Pi Video Player für Mik und co.
 ## Todo
 - [ ] downgrade Pi to Pi OS Legacy (buster) to get access to `omxplayer`
 
