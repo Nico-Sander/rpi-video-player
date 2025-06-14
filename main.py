@@ -5,7 +5,7 @@ import os
 
 # -- Config
 BUTTON_GPIO_PIN = 23
-VIDEO_PATH = "test_video_converted.mp4"
+VIDEO_PATH = "test_video_3_min_converted.mp4"
 
 # -- GPIO Setup
 GPIO.setmode(GPIO.BCM)      # Use BCM numbering for GPIO Pins
