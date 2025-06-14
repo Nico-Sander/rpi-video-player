@@ -2,7 +2,7 @@
 ## Todo
 - [x] downgrade Pi to Pi OS Legacy (buster) to get access to `omxplayer`
 - [x] clone this repo to the Pi
-- [ ] write simple program that plays video using `omxplayer`
+- [x] write simple program that plays video using `omxplayer`
 
 ## Notes
 - Video should be in the following format: H264 MPEG4 with 1080p resolution
