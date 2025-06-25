@@ -14,3 +14,18 @@
 3. Downloaded a [test video](test_video_converted.mp4) from a stock site and converted it to H264 MPEG4 because `omxplayer` is optimized for it.
 4. Synced the test video to the Pi using git.
 5. Installed python3-rpi.gpio library with `sudo apt-get install python3-rpi.gpio`
+6. Tested how to detect button presses in python
+7. Tested how to start and controll the video player from python. (Contollability very limited)
+8. Wrote logic for needed functionality:
+    - Always keept the video player process running
+    - If the video is paused and the button is pressed -> Start the video
+    - If the video is playing and teh button is pressed -> Reset the video to the start and pause it.
+
+## Verwendung
+1. In das Grundverzeichnis des Projekt navigieren: `cd ~/rpi-video-player/`
+2. Programm starten: `python3 play_video.py`
+    - Man wird dann aufgefordert die Lautstaerke einzugeben. Der Standart is -3000 mdB. Die Standartlautstaerke kann mit "Enter" akzeptiert werden. Ansonsten einen anderen (ganzzahligen) Wert eingeben. Wahrscheinlich je nach Kopfhoerer unterschiedlich.
+
+3. Programm beenden: 
+    - Tastatur anschliessen und CTRL + C druecken.
+    - Notfalls Stromkabel ziehen. :|
