@@ -27,5 +27,5 @@
     - Man wird dann aufgefordert die Lautstaerke einzugeben. Der Standart is -3000 mdB. Die Standartlautstaerke kann mit "Enter" akzeptiert werden. Ansonsten einen anderen (ganzzahligen) Wert eingeben. Wahrscheinlich je nach Kopfhoerer unterschiedlich.
 
 3. Programm beenden: 
-    - Tastatur anschliessen und CTRL + C druecken.
+    - Tastatur anschliessen und `CTRL + C` druecken.
     - Notfalls Stromkabel ziehen. :|
