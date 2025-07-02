@@ -5,7 +5,7 @@ import time
 
 # --- Configuration ---
 BUTTON_GPIO_PIN = 23                # The GPIO to which the button is connected according to BCM numbering (the other pin is connected to ground)
-VIDEO_PATH = "rpi_video_v01.mp4"    # File name of the video, needs to be in the same directory as this python file.
+VIDEO_PATH = "FINAL.mp4"            # File name of the video, needs to be in the same directory as this python file.
 VOLUME = -3000                      # Default Volume
 
 
