@@ -29,3 +29,6 @@
 3. Programm beenden: 
     - Tastatur anschliessen und `CTRL + C` druecken.
     - Notfalls Stromkabel ziehen. :|
+
+## Link zum Video für das Projekt
+https://drive.google.com/file/d/10hf1ktRNTZzjCFe3CPiF_GP134YkWHFT/view?usp=sharing
