@@ -5,7 +5,7 @@ import time
 
 # --- Configuration ---
 BUTTON_GPIO_PIN = 23                # The GPIO to which the button is connected according to BCM numbering (the other pin is connected to ground)
-VIDEO_PATH = "FINAL.mp4"            # File name of the video, needs to be in the same directory as this python file.
+VIDEO_PATH = "final.mp4"            # File name of the video, needs to be in the same directory as this python file.
 VOLUME = -3000                      # Default Volume
 
 
@@ -65,7 +65,7 @@ def start_video_paused():
                 start_found = True                          # Signal that the start of the video was found
                 break                                       # Stop analysing the output and continue
 
-        time.sleep(0.55)                                    # Wait for same random time (Found out with Trial and Error)
+        time.sleep(0.58)                                    # Wait for same random time (Found out with Trial and Error)
         send_omxplayer_command("p")                         # Then actually send the pause command to the video player process (Video can be paused by pressing 'p')
         is_paused = True                                    # Signal that the video is now paused
             
